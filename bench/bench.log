@@ -1,0 +1,582 @@
+Warning: .docx conversion currently disabled
+test/files/benchmark.txt
+Warning: .docx conversion currently disabled
+test/files/benchmark.txt
+Warning: .docx conversion currently disabled
+test/files/benchmark.txt
+Warning: .docx conversion currently disabled
+test/files/benchmark.txt
+Warning: .docx conversion currently disabled
+test/files/format.markdown
+Warning: .docx conversion currently disabled
+test/files/format.markdown
+Warning: .docx conversion currently disabled
+test/files/format.markdown
+Warning: .docx conversion currently disabled
+test/files/format.markdown
+Warning: .docx conversion currently disabled
+test/files/large_markdown.md
+Warning: .docx conversion currently disabled
+test/files/large_markdown.md
+Warning: .docx conversion currently disabled
+test/files/large_markdown.md
+Warning: .docx conversion currently disabled
+test/files/large_markdown.md
+Warning: .docx conversion currently disabled
+test/files/test.md
+Warning: .docx conversion currently disabled
+test/files/test.md
+Warning: .docx conversion currently disabled
+test/files/test.md
+Warning: .docx conversion currently disabled
+test/files/test.md
+Warning: .docx conversion currently disabled
+test/files/test2.md
+Warning: .docx conversion currently disabled
+test/files/test2.md
+Warning: .docx conversion currently disabled
+test/files/test2.md
+Warning: .docx conversion currently disabled
+test/files/test2.md
+Warning: .docx conversion currently disabled
+test/files/bomb.tex
+Warning: .docx conversion currently disabled
+test/files/bomb.tex
+Warning: .docx conversion currently disabled
+test/files/bomb.tex
+Warning: .docx conversion currently disabled
+test/files/bomb.tex
+Warning: .docx conversion currently disabled
+test/files/format.latex
+Warning: .docx conversion currently disabled
+test/files/format.latex
+Warning: .docx conversion currently disabled
+test/files/format.latex
+Warning: .docx conversion currently disabled
+test/files/format.latex
+Warning: .docx conversion currently disabled
+test/files/format.org
+Warning: .docx conversion currently disabled
+test/files/format.org
+Warning: .docx conversion currently disabled
+test/files/format.org
+Warning: .docx conversion currently disabled
+test/files/format.org
+Warning: .docx conversion currently disabled
+test/files/format.rst
+Warning: .docx conversion currently disabled
+test/files/format.rst
+Warning: .docx conversion currently disabled
+test/files/format.rst
+Warning: .docx conversion currently disabled
+test/files/format.rst
+Warning: .docx conversion currently disabled
+test/files/format.textile
+Warning: .docx conversion currently disabled
+test/files/format.textile
+Warning: .docx conversion currently disabled
+test/files/format.textile
+Warning: .docx conversion currently disabled
+test/files/format.textile
+Warming up --------------------------------------
+from: markdown, to: Fixnum, file: benchmark.txt, sum bytes
+                       189.000  i/100ms
+from: markdown, to: markdown, file: benchmark.txt, pandoc_rb
+                         2.000  i/100ms
+from: markdown, to: markdown, file: benchmark.txt, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: markdown, to: latex, file: benchmark.txt, pandoc_rb
+                         3.000  i/100ms
+from: markdown, to: latex, file: benchmark.txt, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: markdown, to: html, file: benchmark.txt, pandoc_rb
+                         3.000  i/100ms
+from: markdown, to: html, file: benchmark.txt, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: markdown, to: docx, file: benchmark.txt, pandoc_rb
+                         1.000  i/100ms
+from: markdown, to: docx, file: benchmark.txt, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: markdown, to: Fixnum, file: format.markdown, sum bytes
+                        11.736k i/100ms
+from: markdown, to: markdown, file: format.markdown, pandoc_rb
+                       123.000  i/100ms
+from: markdown, to: markdown, file: format.markdown, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: markdown, to: latex, file: format.markdown, pandoc_rb
+                       139.000  i/100ms
+from: markdown, to: latex, file: format.markdown, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: markdown, to: html, file: format.markdown, pandoc_rb
+                       169.000  i/100ms
+from: markdown, to: html, file: format.markdown, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: markdown, to: docx, file: format.markdown, pandoc_rb
+                         2.000  i/100ms
+from: markdown, to: docx, file: format.markdown, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: markdown, to: Fixnum, file: large_markdown.md, sum bytes
+                       124.000  i/100ms
+from: markdown, to: markdown, file: large_markdown.md, pandoc_rb
+                         1.000  i/100ms
+from: markdown, to: markdown, file: large_markdown.md, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: markdown, to: latex, file: large_markdown.md, pandoc_rb
+                         2.000  i/100ms
+from: markdown, to: latex, file: large_markdown.md, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: markdown, to: html, file: large_markdown.md, pandoc_rb
+                         2.000  i/100ms
+from: markdown, to: html, file: large_markdown.md, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: markdown, to: docx, file: large_markdown.md, pandoc_rb
+                         1.000  i/100ms
+from: markdown, to: docx, file: large_markdown.md, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: markdown, to: Fixnum, file: test.md, sum bytes
+                        12.173k i/100ms
+from: markdown, to: markdown, file: test.md, pandoc_rb
+                       148.000  i/100ms
+from: markdown, to: markdown, file: test.md, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: markdown, to: latex, file: test.md, pandoc_rb
+                       165.000  i/100ms
+from: markdown, to: latex, file: test.md, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: markdown, to: html, file: test.md, pandoc_rb
+                       191.000  i/100ms
+from: markdown, to: html, file: test.md, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: markdown, to: docx, file: test.md, pandoc_rb
+                         2.000  i/100ms
+from: markdown, to: docx, file: test.md, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: markdown, to: Fixnum, file: test2.md, sum bytes
+                        44.006k i/100ms
+from: markdown, to: markdown, file: test2.md, pandoc_rb
+                         1.008k i/100ms
+from: markdown, to: markdown, file: test2.md, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: markdown, to: latex, file: test2.md, pandoc_rb
+                       962.000  i/100ms
+from: markdown, to: latex, file: test2.md, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: markdown, to: html, file: test2.md, pandoc_rb
+                         1.125k i/100ms
+from: markdown, to: html, file: test2.md, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: markdown, to: docx, file: test2.md, pandoc_rb
+                         2.000  i/100ms
+from: markdown, to: docx, file: test2.md, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: latex, to: Fixnum, file: bomb.tex, sum bytes
+                         3.830k i/100ms
+from: latex, to: markdown, file: bomb.tex, pandoc_rb
+                         1.000  i/100ms
+from: latex, to: markdown, file: bomb.tex, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: latex, to: latex, file: bomb.tex, pandoc_rb
+                         1.000  i/100ms
+from: latex, to: latex, file: bomb.tex, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: latex, to: html, file: bomb.tex, pandoc_rb
+                         1.000  i/100ms
+from: latex, to: html, file: bomb.tex, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: latex, to: docx, file: bomb.tex, pandoc_rb
+                         1.000  i/100ms
+from: latex, to: docx, file: bomb.tex, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: latex, to: Fixnum, file: format.latex, sum bytes
+                         9.136k i/100ms
+from: latex, to: markdown, file: format.latex, pandoc_rb
+                       407.000  i/100ms
+from: latex, to: markdown, file: format.latex, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: latex, to: latex, file: format.latex, pandoc_rb
+                       440.000  i/100ms
+from: latex, to: latex, file: format.latex, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: latex, to: html, file: format.latex, pandoc_rb
+                       601.000  i/100ms
+from: latex, to: html, file: format.latex, pandoc-ruby (read file)
+                         3.000  i/100ms
+from: latex, to: docx, file: format.latex, pandoc_rb
+                         4.000  i/100ms
+from: latex, to: docx, file: format.latex, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: org, to: Fixnum, file: format.org, sum bytes
+                        11.476k i/100ms
+from: org, to: markdown, file: format.org, pandoc_rb
+                        92.000  i/100ms
+from: org, to: markdown, file: format.org, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: org, to: latex, file: format.org, pandoc_rb
+                       105.000  i/100ms
+from: org, to: latex, file: format.org, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: org, to: html, file: format.org, pandoc_rb
+                       109.000  i/100ms
+from: org, to: html, file: format.org, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: org, to: docx, file: format.org, pandoc_rb
+                         2.000  i/100ms
+from: org, to: docx, file: format.org, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: rst, to: Fixnum, file: format.rst, sum bytes
+                        10.131k i/100ms
+from: rst, to: markdown, file: format.rst, pandoc_rb
+                        97.000  i/100ms
+from: rst, to: markdown, file: format.rst, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: rst, to: latex, file: format.rst, pandoc_rb
+                        99.000  i/100ms
+from: rst, to: latex, file: format.rst, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: rst, to: html, file: format.rst, pandoc_rb
+                       109.000  i/100ms
+from: rst, to: html, file: format.rst, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: rst, to: docx, file: format.rst, pandoc_rb
+                         2.000  i/100ms
+from: rst, to: docx, file: format.rst, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: textile, to: Fixnum, file: format.textile, sum bytes
+                        10.334k i/100ms
+from: textile, to: markdown, file: format.textile, pandoc_rb
+                       199.000  i/100ms
+from: textile, to: markdown, file: format.textile, pandoc-ruby (read file)
+                         3.000  i/100ms
+from: textile, to: latex, file: format.textile, pandoc_rb
+                       258.000  i/100ms
+from: textile, to: latex, file: format.textile, pandoc-ruby (read file)
+                         3.000  i/100ms
+from: textile, to: html, file: format.textile, pandoc_rb
+                       350.000  i/100ms
+from: textile, to: html, file: format.textile, pandoc-ruby (read file)
+                         3.000  i/100ms
+from: textile, to: docx, file: format.textile, pandoc_rb
+                         2.000  i/100ms
+from: textile, to: docx, file: format.textile, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: docx, to: Fixnum, file: image_test.docx, sum bytes
+                       225.000  i/100ms
+from: docx, to: markdown, file: image_test.docx, pandoc_rb
+                        23.000  i/100ms
+from: docx, to: markdown, file: image_test.docx, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: docx, to: latex, file: image_test.docx, pandoc_rb
+                        23.000  i/100ms
+from: docx, to: latex, file: image_test.docx, pandoc-ruby (read file)
+                         2.000  i/100ms
+from: docx, to: html, file: image_test.docx, pandoc_rb
+                        25.000  i/100ms
+from: docx, to: html, file: image_test.docx, pandoc-ruby (read file)
+                         1.000  i/100ms
+from: docx, to: docx, file: image_test.docx, pandoc_rb
+                         2.000  i/100ms
+from: docx, to: docx, file: image_test.docx, pandoc-ruby (read file)
+                         1.000  i/100ms
+Calculating -------------------------------------
+from: markdown, to: Fixnum, file: benchmark.txt, sum bytes
+                          1.850k (± 3.2%) i/s -      9.261k in   5.093876s
+from: markdown, to: markdown, file: benchmark.txt, pandoc_rb
+                         40.468  (± 2.4%) i/s -    200.000  in   5.030152s
+from: markdown, to: markdown, file: benchmark.txt, pandoc-ruby (read file)
+                         13.726  (± 3.1%) i/s -     67.000  in   5.070237s
+from: markdown, to: latex, file: benchmark.txt, pandoc_rb
+                         43.743  (± 1.9%) i/s -    219.000  in   5.052100s
+from: markdown, to: latex, file: benchmark.txt, pandoc-ruby (read file)
+                         13.758  (± 3.6%) i/s -     66.000  in   5.048097s
+from: markdown, to: html, file: benchmark.txt, pandoc_rb
+                         48.989  (± 2.3%) i/s -    243.000  in   5.012714s
+from: markdown, to: html, file: benchmark.txt, pandoc-ruby (read file)
+                         14.627  (± 1.7%) i/s -     73.000  in   5.031781s
+from: markdown, to: docx, file: benchmark.txt, pandoc_rb
+                         14.888  (± 2.2%) i/s -     74.000  in   5.027620s
+from: markdown, to: docx, file: benchmark.txt, pandoc-ruby (read file)
+                          9.385  (± 2.6%) i/s -     47.000  in   5.066863s
+from: markdown, to: Fixnum, file: format.markdown, sum bytes
+                        116.191k (± 4.0%) i/s -    575.064k in   5.081796s
+from: markdown, to: markdown, file: format.markdown, pandoc_rb
+                          1.498k (± 2.2%) i/s -      7.503k in   5.064167s
+from: markdown, to: markdown, file: format.markdown, pandoc-ruby (read file)
+                         33.284  (± 3.1%) i/s -    162.000  in   5.046008s
+from: markdown, to: latex, file: format.markdown, pandoc_rb
+                          1.715k (± 2.0%) i/s -      8.618k in   5.055792s
+from: markdown, to: latex, file: format.markdown, pandoc-ruby (read file)
+                         31.869  (± 4.7%) i/s -    140.000  in   5.042609s
+from: markdown, to: html, file: format.markdown, pandoc_rb
+                          1.946k (± 2.1%) i/s -      9.802k in   5.072960s
+from: markdown, to: html, file: format.markdown, pandoc-ruby (read file)
+                         31.749  (± 4.4%) i/s -    150.000  in   5.032065s
+from: markdown, to: docx, file: format.markdown, pandoc_rb
+                         29.011  (± 2.6%) i/s -    144.000  in   5.024412s
+from: markdown, to: docx, file: format.markdown, pandoc-ruby (read file)
+                         11.422  (±12.7%) i/s -     42.000  in   5.098880s
+from: markdown, to: Fixnum, file: large_markdown.md, sum bytes
+                          1.250k (± 4.2%) i/s -      6.076k in   5.005915s
+from: markdown, to: markdown, file: large_markdown.md, pandoc_rb
+                         21.704  (± 3.1%) i/s -    106.000  in   5.011001s
+from: markdown, to: markdown, file: large_markdown.md, pandoc-ruby (read file)
+                          9.154  (± 2.8%) i/s -     46.000  in   5.092176s
+from: markdown, to: latex, file: large_markdown.md, pandoc_rb
+                         23.415  (± 1.7%) i/s -    118.000  in   5.061691s
+from: markdown, to: latex, file: large_markdown.md, pandoc-ruby (read file)
+                          7.851  (± 9.6%) i/s -     26.000  in   5.011907s
+from: markdown, to: html, file: large_markdown.md, pandoc_rb
+                         25.427  (± 2.2%) i/s -    128.000  in   5.073652s
+from: markdown, to: html, file: large_markdown.md, pandoc-ruby (read file)
+                          8.667  (± 5.6%) i/s -     41.000  in   5.088637s
+from: markdown, to: docx, file: large_markdown.md, pandoc_rb
+                          1.625  (±16.0%) i/s -      8.000  in   5.282530s
+from: markdown, to: docx, file: large_markdown.md, pandoc-ruby (read file)
+                          1.563  (± 7.8%) i/s -      8.000  in   5.216190s
+from: markdown, to: Fixnum, file: test.md, sum bytes
+                        142.634k (± 1.6%) i/s -    718.207k in   5.056078s
+from: markdown, to: markdown, file: test.md, pandoc_rb
+                          1.529k (± 3.9%) i/s -      7.548k in   5.055298s
+from: markdown, to: markdown, file: test.md, pandoc-ruby (read file)
+                         32.114  (± 4.2%) i/s -    154.000  in   5.080249s
+from: markdown, to: latex, file: test.md, pandoc_rb
+                          1.786k (± 1.9%) i/s -      8.910k in   5.012171s
+from: markdown, to: latex, file: test.md, pandoc-ruby (read file)
+                         34.040  (± 2.3%) i/s -    168.000  in   5.031608s
+from: markdown, to: html, file: test.md, pandoc_rb
+                          2.194k (± 1.9%) i/s -     11.078k in   5.077812s
+from: markdown, to: html, file: test.md, pandoc-ruby (read file)
+                         31.732  (± 5.1%) i/s -    146.000  in   5.080645s
+from: markdown, to: docx, file: test.md, pandoc_rb
+                         28.978  (± 3.1%) i/s -    142.000  in   5.014899s
+from: markdown, to: docx, file: test.md, pandoc-ruby (read file)
+                         14.083  (± 5.4%) i/s -     63.000  in   4.999692s
+from: markdown, to: Fixnum, file: test2.md, sum bytes
+                        561.136k (± 5.0%) i/s -      2.684M in  61.237330s
+from: markdown, to: markdown, file: test2.md, pandoc_rb
+                          9.776k (± 2.5%) i/s -     49.392k in   5.098131s
+from: markdown, to: markdown, file: test2.md, pandoc-ruby (read file)
+                          7.008  (±75.0%) i/s -     20.000  in   5.185296s
+from: markdown, to: latex, file: test2.md, pandoc_rb
+                          9.547k (± 1.5%) i/s -     48.100k in   5.054252s
+from: markdown, to: latex, file: test2.md, pandoc-ruby (read file)
+                         10.947  (±32.7%) i/s -     38.000  in   5.048140s
+from: markdown, to: html, file: test2.md, pandoc_rb
+                         11.526k (± 1.6%) i/s -     58.500k in   5.093760s
+from: markdown, to: html, file: test2.md, pandoc-ruby (read file)
+                          9.606  (±15.5%) i/s -     42.000  in   5.049795s
+from: markdown, to: docx, file: test2.md, pandoc_rb
+                         28.742  (± 2.1%) i/s -    144.000  in   5.048090s
+from: markdown, to: docx, file: test2.md, pandoc-ruby (read file)
+                         11.241  (±13.6%) i/s -     43.000  in   5.233763s
+from: latex, to: Fixnum, file: bomb.tex, sum bytes
+                         37.662k (± 1.4%) i/s -    191.500k in   5.097076s
+from: latex, to: markdown, file: bomb.tex, pandoc_rb
+                          0.021  (± 0.0%) i/s -      1.000  in  48.257789s
+from: latex, to: markdown, file: bomb.tex, pandoc-ruby (read file)
+                          0.014  (± 0.0%) i/s -      1.000  in  72.926261s
+from: latex, to: latex, file: bomb.tex, pandoc_rb
+                          0.020  (± 0.0%) i/s -      1.000  in  49.267135s
+from: latex, to: latex, file: bomb.tex, pandoc-ruby (read file)
+                         18.886  (±12.9%) i/s -     46.000  in   5.086417s
+from: latex, to: html, file: bomb.tex, pandoc_rb
+                          0.020  (± 0.0%) i/s -      1.000  in  49.120196s
+from: latex, to: html, file: bomb.tex, pandoc-ruby (read file)
+                          0.010  (± 0.0%) i/s -      1.000  in 101.045230s
+from: latex, to: docx, file: bomb.tex, pandoc_rb
+                          0.019  (± 0.0%) i/s -      1.000  in  51.567342s
+from: latex, to: docx, file: bomb.tex, pandoc-ruby (read file)
+                          0.016  (± 0.0%) i/s -      1.000  in  61.967397s
+from: latex, to: Fixnum, file: format.latex, sum bytes
+                         96.359k (± 1.6%) i/s -    484.208k in   5.042455s
+from: latex, to: markdown, file: format.latex, pandoc_rb
+                          3.939k (± 1.7%) i/s -     19.943k in   5.081474s
+from: latex, to: markdown, file: format.latex, pandoc-ruby (read file)
+                          0.101  (± 0.0%) i/s -      2.000  in  19.851054s
+from: latex, to: latex, file: format.latex, pandoc_rb
+                          4.553k (± 1.6%) i/s -     22.880k in   5.042058s
+from: latex, to: latex, file: format.latex, pandoc-ruby (read file)
+                          6.492  (±28.7%) i/s -     24.000  in   5.007228s
+from: latex, to: html, file: format.latex, pandoc_rb
+                          5.607k (± 1.5%) i/s -     28.247k in   5.050955s
+from: latex, to: html, file: format.latex, pandoc-ruby (read file)
+                         10.541  (±29.7%) i/s -     45.000  in   5.015373s
+from: latex, to: docx, file: format.latex, pandoc_rb
+                         34.692  (±13.0%) i/s -    152.000  in   5.060623s
+from: latex, to: docx, file: format.latex, pandoc-ruby (read file)
+                          1.324  (±37.1%) i/s -      6.000  in   5.575974s
+from: org, to: Fixnum, file: format.org, sum bytes
+                        129.899k (± 1.2%) i/s -    654.132k in   5.047220s
+from: org, to: markdown, file: format.org, pandoc_rb
+                        989.996  (± 1.9%) i/s -      4.968k in   5.043293s
+from: org, to: markdown, file: format.org, pandoc-ruby (read file)
+                          0.174  (± 0.0%) i/s -      1.000  in   5.743801s
+from: org, to: latex, file: format.org, pandoc_rb
+                          1.043k (± 1.4%) i/s -      5.250k in   5.047898s
+from: org, to: latex, file: format.org, pandoc-ruby (read file)
+                         22.256  (± 4.2%) i/s -    100.000  in   5.036749s
+from: org, to: html, file: format.org, pandoc_rb
+                          1.048k (± 1.9%) i/s -      5.232k in   5.018232s
+from: org, to: html, file: format.org, pandoc-ruby (read file)
+                         22.033  (± 3.8%) i/s -    103.000  in   5.010168s
+from: org, to: docx, file: format.org, pandoc_rb
+                         27.292  (± 2.5%) i/s -    136.000  in   5.036464s
+from: org, to: docx, file: format.org, pandoc-ruby (read file)
+                         13.898  (± 4.2%) i/s -     66.000  in   5.041324s
+from: rst, to: Fixnum, file: format.rst, sum bytes
+                        107.008k (± 4.4%) i/s -    516.681k in   5.004267s
+from: rst, to: markdown, file: format.rst, pandoc_rb
+                        984.008  (± 1.9%) i/s -      4.947k in   5.052615s
+from: rst, to: markdown, file: format.rst, pandoc-ruby (read file)
+                         22.863  (± 2.9%) i/s -    116.000  in   5.194290s
+from: rst, to: latex, file: format.rst, pandoc_rb
+                          1.004k (± 1.9%) i/s -      5.049k in   5.048934s
+from: rst, to: latex, file: format.rst, pandoc-ruby (read file)
+                         23.452  (± 3.0%) i/s -    116.000  in   5.045375s
+from: rst, to: html, file: format.rst, pandoc_rb
+                          1.050k (± 1.9%) i/s -      5.341k in   5.110070s
+from: rst, to: html, file: format.rst, pandoc-ruby (read file)
+                         20.801  (± 7.9%) i/s -     90.000  in   5.090498s
+from: rst, to: docx, file: format.rst, pandoc_rb
+                         26.241  (± 2.4%) i/s -    130.000  in   5.002157s
+from: rst, to: docx, file: format.rst, pandoc-ruby (read file)
+                         13.018  (± 8.0%) i/s -     55.000  in   5.200620s
+from: textile, to: Fixnum, file: format.textile, sum bytes
+                        109.342k (± 3.4%) i/s -    537.368k in   5.029877s
+from: textile, to: markdown, file: format.textile, pandoc_rb
+                          2.009k (± 4.0%) i/s -      9.950k in   5.052529s
+from: textile, to: markdown, file: format.textile, pandoc-ruby (read file)
+                         31.014  (± 6.8%) i/s -    144.000  in   5.081162s
+from: textile, to: latex, file: format.textile, pandoc_rb
+                          2.499k (± 1.4%) i/s -     12.642k in   5.073466s
+from: textile, to: latex, file: format.textile, pandoc-ruby (read file)
+                         34.192  (± 4.8%) i/s -    156.000  in   5.003855s
+from: textile, to: html, file: format.textile, pandoc_rb
+                          3.230k (± 2.5%) i/s -     16.100k in   5.023358s
+from: textile, to: html, file: format.textile, pandoc-ruby (read file)
+                         17.254  (±14.5%) i/s -     72.000  in   5.195067s
+from: textile, to: docx, file: format.textile, pandoc_rb
+                         27.161  (± 2.3%) i/s -    136.000  in   5.055945s
+from: textile, to: docx, file: format.textile, pandoc-ruby (read file)
+                         13.596  (± 8.3%) i/s -     49.000  in   5.016269s
+from: docx, to: Fixnum, file: image_test.docx, sum bytes
+                          2.112k (± 3.4%) i/s -     10.350k in   5.010693s
+from: docx, to: markdown, file: image_test.docx, pandoc_rb
+                        237.699  (± 2.1%) i/s -      1.196k in   5.061013s
+from: docx, to: markdown, file: image_test.docx, pandoc-ruby (read file)
+                         16.770  (± 7.2%) i/s -     61.000  in   5.015028s
+from: docx, to: latex, file: image_test.docx, pandoc_rb
+                        236.191  (± 2.0%) i/s -      1.196k in   5.087936s
+from: docx, to: latex, file: image_test.docx, pandoc-ruby (read file)
+                         20.979  (± 6.5%) i/s -     96.000  in   5.080659s
+from: docx, to: html, file: image_test.docx, pandoc_rb
+                        238.427  (± 1.7%) i/s -      1.200k in   5.050427s
+from: docx, to: html, file: image_test.docx, pandoc-ruby (read file)
+                         22.709  (± 1.5%) i/s -    113.000  in   5.014988s
+from: docx, to: docx, file: image_test.docx, pandoc_rb
+                         24.802  (± 2.3%) i/s -    124.000  in   5.055056s
+from: docx, to: docx, file: image_test.docx, pandoc-ruby (read file)
+                         11.971  (± 4.5%) i/s -     58.000  in   5.083064s
+                   with 95.0% confidence
+
+Comparison:
+from: markdown, to: Fixnum, file: test2.md, sum bytes:   561136.3 i/s
+from: markdown, to: Fixnum, file: test.md, sum bytes:   142634.5 i/s - 3.94x  (± 0.20) slower
+from: org, to: Fixnum, file: format.org, sum bytes:   129899.0 i/s - 4.32x  (± 0.22) slower
+from: markdown, to: Fixnum, file: format.markdown, sum bytes:   116191.5 i/s - 4.83x  (± 0.31) slower
+from: textile, to: Fixnum, file: format.textile, sum bytes:   109341.6 i/s - 5.13x  (± 0.31) slower
+from: rst, to: Fixnum, file: format.rst, sum bytes:   107008.0 i/s - 5.25x  (± 0.36) slower
+from: latex, to: Fixnum, file: format.latex, sum bytes:    96359.4 i/s - 5.82x  (± 0.31) slower
+from: latex, to: Fixnum, file: bomb.tex, sum bytes:    37662.3 i/s - 14.90x  (± 0.78) slower
+from: markdown, to: html, file: test2.md, pandoc_rb:    11525.8 i/s - 48.69x  (± 2.55) slower
+from: markdown, to: markdown, file: test2.md, pandoc_rb:     9775.5 i/s - 57.45x  (± 3.17) slower
+from: markdown, to: latex, file: test2.md, pandoc_rb:     9547.0 i/s - 58.77x  (± 3.06) slower
+from: latex, to: html, file: format.latex, pandoc_rb:     5606.6 i/s - 100.04x  (± 5.16) slower
+from: latex, to: latex, file: format.latex, pandoc_rb:     4552.7 i/s - 123.17x  (± 6.35) slower
+from: latex, to: markdown, file: format.latex, pandoc_rb:     3938.9 i/s - 142.44x  (± 7.46) slower
+from: textile, to: html, file: format.textile, pandoc_rb:     3229.7 i/s - 173.65x  (± 9.70) slower
+from: textile, to: latex, file: format.textile, pandoc_rb:     2498.7 i/s - 224.62x  (± 11.64) slower
+from: markdown, to: html, file: test.md, pandoc_rb:     2193.9 i/s - 255.74x  (± 13.37) slower
+from: docx, to: Fixnum, file: image_test.docx, sum bytes:     2112.3 i/s - 265.79x  (± 16.11) slower
+from: textile, to: markdown, file: format.textile, pandoc_rb:     2009.4 i/s - 279.09x  (± 17.72) slower
+from: markdown, to: html, file: format.markdown, pandoc_rb:     1946.1 i/s - 288.30x  (± 15.55) slower
+from: markdown, to: Fixnum, file: benchmark.txt, sum bytes:     1850.0 i/s - 303.35x  (± 17.94) slower
+from: markdown, to: latex, file: test.md, pandoc_rb:     1786.0 i/s - 314.07x  (± 16.60) slower
+from: markdown, to: latex, file: format.markdown, pandoc_rb:     1715.1 i/s - 326.94x  (± 17.30) slower
+from: markdown, to: markdown, file: test.md, pandoc_rb:     1529.4 i/s - 366.82x  (± 23.24) slower
+from: markdown, to: markdown, file: format.markdown, pandoc_rb:     1497.8 i/s - 374.75x  (± 20.16) slower
+from: markdown, to: Fixnum, file: large_markdown.md, sum bytes:     1250.1 i/s - 448.80x  (± 29.15) slower
+from: rst, to: html, file: format.rst, pandoc_rb:     1049.7 i/s - 534.45x  (± 27.86) slower
+from: org, to: html, file: format.org, pandoc_rb:     1048.3 i/s - 534.98x  (± 28.25) slower
+from: org, to: latex, file: format.org, pandoc_rb:     1042.8 i/s - 537.94x  (± 26.98) slower
+from: rst, to: latex, file: format.rst, pandoc_rb:     1004.3 i/s - 558.53x  (± 29.58) slower
+from: org, to: markdown, file: format.org, pandoc_rb:      990.0 i/s - 566.85x  (± 29.94) slower
+from: rst, to: markdown, file: format.rst, pandoc_rb:      984.0 i/s - 569.87x  (± 30.25) slower
+from: docx, to: html, file: image_test.docx, pandoc_rb:      238.4 i/s - 2353.45x  (± 121.77) slower
+from: docx, to: markdown, file: image_test.docx, pandoc_rb:      237.7 i/s - 2358.91x  (± 124.42) slower
+from: docx, to: latex, file: image_test.docx, pandoc_rb:      236.2 i/s - 2375.81x  (± 125.42) slower
+from: markdown, to: html, file: benchmark.txt, pandoc_rb:       49.0 i/s - 11448.05x  (± 620.71) slower
+from: markdown, to: latex, file: benchmark.txt, pandoc_rb:       43.7 i/s - 12830.34x  (± 685.07) slower
+from: markdown, to: markdown, file: benchmark.txt, pandoc_rb:       40.5 i/s - 13859.64x  (± 765.40) slower
+from: latex, to: docx, file: format.latex, pandoc_rb:       34.7 i/s - 16138.73x  (± 2250.32) slower
+from: textile, to: latex, file: format.textile, pandoc-ruby (read file):       34.2 i/s - 16419.54x  (± 1145.03) slower
+from: markdown, to: latex, file: test.md, pandoc-ruby (read file):       34.0 i/s - 16497.26x  (± 893.14) slower
+from: markdown, to: markdown, file: format.markdown, pandoc-ruby (read file):       33.3 i/s - 16857.42x  (± 995.87) slower
+from: markdown, to: markdown, file: test.md, pandoc-ruby (read file):       32.1 i/s - 17470.93x  (± 1137.83) slower
+from: markdown, to: latex, file: format.markdown, pandoc-ruby (read file):       31.9 i/s - 17618.38x  (± 1233.89) slower
+from: markdown, to: html, file: format.markdown, pandoc-ruby (read file):       31.7 i/s - 17658.98x  (± 1182.04) slower
+from: markdown, to: html, file: test.md, pandoc-ruby (read file):       31.7 i/s - 17682.01x  (± 1266.44) slower
+from: textile, to: markdown, file: format.textile, pandoc-ruby (read file):       31.0 i/s - 18079.05x  (± 1516.09) slower
+from: markdown, to: docx, file: format.markdown, pandoc_rb:       29.0 i/s - 19344.97x  (± 1076.01) slower
+from: markdown, to: docx, file: test.md, pandoc_rb:       29.0 i/s - 19363.24x  (± 1155.54) slower
+from: markdown, to: docx, file: test2.md, pandoc_rb:       28.7 i/s - 19504.00x  (± 1032.52) slower
+from: org, to: docx, file: format.org, pandoc_rb:       27.3 i/s - 20553.55x  (± 1128.55) slower
+from: textile, to: docx, file: format.textile, pandoc_rb:       27.2 i/s - 20656.35x  (± 1128.94) slower
+from: rst, to: docx, file: format.rst, pandoc_rb:       26.2 i/s - 21379.60x  (± 1181.66) slower
+from: markdown, to: html, file: large_markdown.md, pandoc_rb:       25.4 i/s - 22060.12x  (± 1201.49) slower
+from: docx, to: docx, file: image_test.docx, pandoc_rb:       24.8 i/s - 22621.01x  (± 1226.22) slower
+from: rst, to: latex, file: format.rst, pandoc-ruby (read file):       23.5 i/s - 23928.31x  (± 1392.25) slower
+from: markdown, to: latex, file: large_markdown.md, pandoc_rb:       23.4 i/s - 23956.66x  (± 1256.26) slower
+from: rst, to: markdown, file: format.rst, pandoc-ruby (read file):       22.9 i/s - 24544.48x  (± 1419.48) slower
+from: docx, to: html, file: image_test.docx, pandoc-ruby (read file):       22.7 i/s - 24703.93x  (± 1287.76) slower
+from: org, to: latex, file: format.org, pandoc-ruby (read file):       22.3 i/s - 25198.55x  (± 1650.66) slower
+from: org, to: html, file: format.org, pandoc-ruby (read file):       22.0 i/s - 25463.21x  (± 1604.97) slower
+from: markdown, to: markdown, file: large_markdown.md, pandoc_rb:       21.7 i/s - 25830.09x  (± 1497.73) slower
+from: docx, to: latex, file: image_test.docx, pandoc-ruby (read file):       21.0 i/s - 26715.25x  (± 2213.53) slower
+from: rst, to: html, file: format.rst, pandoc-ruby (read file):       20.8 i/s - 26921.50x  (± 2568.01) slower
+from: latex, to: latex, file: bomb.tex, pandoc-ruby (read file):       18.9 i/s - 29702.61x  (± 4164.02) slower
+from: textile, to: html, file: format.textile, pandoc-ruby (read file):       17.3 i/s - 32453.90x  (± 4981.80) slower
+from: docx, to: markdown, file: image_test.docx, pandoc-ruby (read file):       16.8 i/s - 33430.66x  (± 3060.01) slower
+from: markdown, to: docx, file: benchmark.txt, pandoc_rb:       14.9 i/s - 37694.33x  (± 2053.44) slower
+from: markdown, to: html, file: benchmark.txt, pandoc-ruby (read file):       14.6 i/s - 38385.19x  (± 1980.59) slower
+from: markdown, to: docx, file: test.md, pandoc-ruby (read file):       14.1 i/s - 39835.16x  (± 2937.50) slower
+from: org, to: docx, file: format.org, pandoc-ruby (read file):       13.9 i/s - 40383.97x  (± 2665.17) slower
+from: markdown, to: latex, file: benchmark.txt, pandoc-ruby (read file):       13.8 i/s - 40804.58x  (± 2490.93) slower
+from: markdown, to: markdown, file: benchmark.txt, pandoc-ruby (read file):       13.7 i/s - 40897.88x  (± 2383.25) slower
+from: textile, to: docx, file: format.textile, pandoc-ruby (read file):       13.6 i/s - 41259.25x  (± 4021.11) slower
+from: rst, to: docx, file: format.rst, pandoc-ruby (read file):       13.0 i/s - 43068.69x  (± 4060.27) slower
+from: docx, to: docx, file: image_test.docx, pandoc-ruby (read file):       12.0 i/s - 46873.98x  (± 3149.85) slower
+from: markdown, to: docx, file: format.markdown, pandoc-ruby (read file):       11.4 i/s - 49047.88x  (± 6895.32) slower
+from: markdown, to: docx, file: test2.md, pandoc-ruby (read file):       11.2 i/s - 49889.28x  (± 7357.77) slower
+from: markdown, to: latex, file: test2.md, pandoc-ruby (read file):       10.9 i/s - 51076.81x  (± 17306.42) slower
+from: latex, to: html, file: format.latex, pandoc-ruby (read file):       10.5 i/s - 53039.41x  (± 15029.24) slower
+from: markdown, to: html, file: test2.md, pandoc-ruby (read file):        9.6 i/s - 58327.12x  (± 9524.16) slower
+from: markdown, to: docx, file: benchmark.txt, pandoc-ruby (read file):        9.4 i/s - 59846.30x  (± 3412.70) slower
+from: markdown, to: markdown, file: large_markdown.md, pandoc-ruby (read file):        9.2 i/s - 61350.63x  (± 3509.00) slower
+from: markdown, to: html, file: large_markdown.md, pandoc-ruby (read file):        8.7 i/s - 64715.00x  (± 4943.97) slower
+from: markdown, to: latex, file: large_markdown.md, pandoc-ruby (read file):        7.9 i/s - 71415.90x  (± 8001.52) slower
+from: markdown, to: markdown, file: test2.md, pandoc-ruby (read file):        7.0 i/s - 79688.19x  (± 65407.06) slower
+from: latex, to: latex, file: format.latex, pandoc-ruby (read file):        6.5 i/s - 86328.82x  (± 26329.93) slower
+from: markdown, to: docx, file: large_markdown.md, pandoc_rb:        1.6 i/s - 345072.78x  (± 60357.33) slower
+from: markdown, to: docx, file: large_markdown.md, pandoc-ruby (read file):        1.6 i/s - 358606.20x  (± 34844.12) slower
+from: latex, to: docx, file: format.latex, pandoc-ruby (read file):        1.3 i/s - 420578.02x  (± 173060.32) slower
+from: org, to: markdown, file: format.org, pandoc-ruby (read file):        0.2 i/s - 3221955.39x  (± 161190.22) slower
+from: latex, to: markdown, file: format.latex, pandoc-ruby (read file):        0.1 i/s - 5566144.51x  (± 278301.65) slower
+from: latex, to: markdown, file: bomb.tex, pandoc_rb:        0.0 i/s - 27088414.37x  (± 1355604.23) slower
+from: latex, to: html, file: bomb.tex, pandoc_rb:        0.0 i/s - 27555885.45x  (± 1357304.53) slower
+from: latex, to: latex, file: bomb.tex, pandoc_rb:        0.0 i/s - 27633933.93x  (± 1369165.37) slower
+from: latex, to: docx, file: bomb.tex, pandoc_rb:        0.0 i/s - 28945996.03x  (± 1432534.33) slower
+from: latex, to: docx, file: bomb.tex, pandoc-ruby (read file):        0.0 i/s - 34782765.45x  (± 1713159.84) slower
+from: latex, to: markdown, file: bomb.tex, pandoc-ruby (read file):        0.0 i/s - 40908295.36x  (± 2031276.12) slower
+from: latex, to: html, file: bomb.tex, pandoc-ruby (read file):        0.0 i/s - 56674736.69x  (± 2854822.63) slower
+                   with 95.0% confidence
+
