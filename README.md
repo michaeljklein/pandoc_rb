@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/michaeljklein/pandoc-ruby.svg?branch=master)](https://travis-ci.org/michaeljklein/pandoc-ruby)
+[![Build Status](https://travis-ci.org/michaeljklein/pandoc_rb.svg?branch=master)](https://travis-ci.org/michaeljklein/pandoc_rb)
 
 
 # PandocRb
