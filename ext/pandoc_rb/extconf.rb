@@ -35,9 +35,6 @@ def system_indent(command)
   exit_status
 end
 
-Dir.chdir(__dir__){ system_indent 'stack setup' }
-
-Dir.chdir(__dir__){ system_indent 'stack build' }
 
 def stack_path
   @stack_path ||= begin
@@ -52,6 +49,16 @@ def stack_path
     end
   end
 end
+
+
+unless system('which stack')
+  raise "Error: stack not installed"
+end
+
+
+Dir.chdir(__dir__){ system_indent 'stack setup' }
+
+Dir.chdir(__dir__){ system_indent 'stack build' }
 
 
 # Give it a name
@@ -102,18 +109,25 @@ LIB_DIRS = [
 
 dir_config extension_name, HEADER_DIRS, LIB_DIRS
 
+
+# Example:
+# stack_path['compiler'] == "ghc-8.0.2"
+# abbrev_compiler = "ghc8.0.2
+abbrev_compiler = stack_path['compiler'].sub('-', '')
+
 have_header 'stdio.h'
 have_header 'ruby.h'
 have_header 'HsFFI.h'
 have_header 'PandocRb_stub.h', 'HsFFI.h'
-find_library 'HSrts-ghc8.0.2', nil
+
+find_library "HSrts-#{abbrev_compiler}", nil
 find_library 'PandocRb', nil
 
 $INCFLAGS  = File.join(stack_path['local-install-root'], "bin/PandocRb.dylib") + ' ' + $INCFLAGS
 $INCFLAGS += " -I#{File.join(stack_path['compiler-lib'], stack_path['compiler'], "include")}" # HsFFI.h
 $INCFLAGS += " -I#{File.join(stack_path['dist-dir'], "build/PandocRb.dylib/PandocRb.dylib-tmp")}" # PandocRb_stub.h
 $INCFLAGS += " -L#{File.join(stack_path['compiler-lib'], stack_path['compiler'], "rts")}"
-$INCFLAGS += " -lHSrts-ghc8.0.2"
+$INCFLAGS += " -lHSrts-#{abbrev_compiler}"
 
 $LDFLAGS  = File.join(stack_path['local-install-root'], "bin/PandocRb.dylib") + ' ' + $LDFLAGS
 $LDFLAGS += " -I#{File.join(stack_path['compiler-lib'], stack_path['compiler'], "include")}" # HsFFI.h
@@ -122,7 +136,7 @@ $LDFLAGS += " -L#{File.join(stack_path['compiler-lib'], stack_path['compiler'], 
 $LDFLAGS += " -Wl,-rpath,'#{File.join(stack_path['compiler-lib'], stack_path['compiler'], "rts")}'"
 $LDFLAGS += " -Wl,-R'#{File.join(stack_path['local-install-root'], "bin")}'" unless OS.mac?
 $LDFLAGS += " -Wl,-rpath,'#{File.join(stack_path['local-install-root'], "bin")}'"
-$LDFLAGS += " -lHSrts-ghc8.0.2"
+$LDFLAGS += " -lHSrts-#{abbrev_compiler}"
 
 create_makefile extension_name
 

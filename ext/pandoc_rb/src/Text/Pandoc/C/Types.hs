@@ -3,9 +3,11 @@
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE ForeignFunctionInterface #-}
 {-# LANGUAGE RankNTypes #-}
+{-# LANGUAGE ScopedTypeVariables #-}
 {-# LANGUAGE StandaloneDeriving #-}
 {-# LANGUAGE TupleSections #-}
-{-# LANGUAGE ScopedTypeVariables #-}
+
+{-# OPTIONS_GHC -fno-warn-orphans #-}
 
 module Text.Pandoc.C.Types where
 
