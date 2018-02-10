@@ -56,35 +56,6 @@ module PandocRb
 
   def self.reader_from_ext(extension)
     {
-      ".xhtml"    => "html",
-      ".html"     => "html",
-      ".htm"      => "html",
-      ".md"       => "markdown",
-      ".markdown" => "markdown",
-      ".tex"      => "latex",
-      ".latex"    => "latex",
-      ".ltx"      => "latex",
-      ".rst"      => "rst",
-      ".org"      => "org",
-      ".lhs"      => "markdown+lhs",
-      ".db"       => "docbook",
-      ".opml"     => "opml",
-      ".wiki"     => "mediawiki",
-      ".dokuwiki" => "dokuwiki",
-      ".textile"  => "textile",
-      ".native"   => "native",
-      ".json"     => "json",
-      ".docx"     => "docx",
-      ".t2t"      => "t2t",
-      ".epub"     => "epub",
-      ".odt"      => "odt",
-      ".pdf"      => "pdf",
-      ".doc"      => "doc",
-    }[extension&.downcase]
-  end
-
-  def self.reader_from_ext(extension)
-    {
       ""          => "markdown",
       ".tex"      => "latex",
       ".latex"    => "latex",
