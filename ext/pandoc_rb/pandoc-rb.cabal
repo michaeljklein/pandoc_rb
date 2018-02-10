@@ -41,7 +41,7 @@ library
   build-depends:       base >= 4.7 && < 5
                      , bytestring
                      , either
-                     , pandoc == 1.19.2.1337
+                     , pandoc
                      , pandoc-types
                      , storable-tuple
                      , transformers
@@ -59,7 +59,7 @@ test-suite pandoc-rb-test
                      , QuickCheck
                      , bytestring
                      , either
-                     , pandoc == 1.19.2.1337
+                     , pandoc
                      , pandoc-types
                      , pandoc-rb
                      , storable-tuple
