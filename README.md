@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/michaeljklein/pandoc_rb.svg?branch=master)](https://travis-ci.org/michaeljklein/pandoc_rb)
 
+[![Gem Version](https://badge.fury.io/rb/pandoc_rb.svg)](https://badge.fury.io/rb/pandoc_rb)
+
 
 # PandocRb
 
