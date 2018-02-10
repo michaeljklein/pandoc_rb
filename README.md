@@ -1,10 +1,33 @@
 [![Build Status](https://travis-ci.org/michaeljklein/pandoc-rb.svg?branch=master)](https://travis-ci.org/michaeljklein/pandoc-rb)
 
-Requires haskell-stack
 
 # PandocRb
 
+Like [PandocRuby](https://github.com/alphabetum/pandoc-ruby), but its interface is more limited:
+
+```ruby
+module PandocRb
+  def self.raise_exception(result)
+  ..
+
+  def self.convert(in_format_str, out_format_str, input_str, extract_media_path='')
+  ..
+
+  def self.reader_from_ext(extension)
+  ..
+end
+```
+
+The primary benefit is that instead of using `system` calls,
+`pandoc_rb` directly uses the memory allocated for Ruby [String](https://ruby-doc.org/core-2.2.1/String.html)s
+through the FFI.
+
+The benchmark results indicate that both significant constant (from initialization) and linear (from streaming through bash pipes)
+overhead for `PandocRuby` is eliminated in `pandoc_rb`.
+
 ## Installation
+
+Requires Haskell-[`stack`](https://docs.haskellstack.org/en/stable/README/)
 
 Add this line to your application's Gemfile:
 
