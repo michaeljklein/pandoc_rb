@@ -1,0 +1,98 @@
+docx,Fixnum,image_test.docx,sum bytes,2112.3
+docx,docx,image_test.docx,pandoc-ruby (read file),12.0
+docx,docx,image_test.docx,pandoc_rb,24.8
+docx,html,image_test.docx,pandoc-ruby (read file),22.7
+docx,html,image_test.docx,pandoc_rb,238.4
+docx,latex,image_test.docx,pandoc-ruby (read file),21.0
+docx,latex,image_test.docx,pandoc_rb,236.2
+docx,markdown,image_test.docx,pandoc-ruby (read file),16.8
+docx,markdown,image_test.docx,pandoc_rb,237.7
+latex,Fixnum,bomb.tex,sum bytes,37662.3
+latex,Fixnum,format.latex,sum bytes,96359.4
+latex,docx,bomb.tex,pandoc-ruby (read file),0.0
+latex,docx,bomb.tex,pandoc_rb,0.0
+latex,docx,format.latex,pandoc-ruby (read file),1.3
+latex,docx,format.latex,pandoc_rb,34.7
+latex,html,bomb.tex,pandoc-ruby (read file),0.0
+latex,html,bomb.tex,pandoc_rb,0.0
+latex,html,format.latex,pandoc-ruby (read file),10.5
+latex,html,format.latex,pandoc_rb,5606.6
+latex,latex,bomb.tex,pandoc-ruby (read file),18.9
+latex,latex,bomb.tex,pandoc_rb,0.0
+latex,latex,format.latex,pandoc-ruby (read file),6.5
+latex,latex,format.latex,pandoc_rb,4552.7
+latex,markdown,bomb.tex,pandoc-ruby (read file),0.0
+latex,markdown,bomb.tex,pandoc_rb,0.0
+latex,markdown,format.latex,pandoc-ruby (read file),0.1
+latex,markdown,format.latex,pandoc_rb,3938.9
+markdown,Fixnum,benchmark.txt,sum bytes,1850.0
+markdown,Fixnum,format.markdown,sum bytes,116191.5
+markdown,Fixnum,large_markdown.md,sum bytes,1250.1
+markdown,Fixnum,test.md,sum bytes,142634.5
+markdown,docx,benchmark.txt,pandoc-ruby (read file),9.4
+markdown,docx,benchmark.txt,pandoc_rb,14.9
+markdown,docx,format.markdown,pandoc-ruby (read file),11.4
+markdown,docx,format.markdown,pandoc_rb,29.0
+markdown,docx,large_markdown.md,pandoc-ruby (read file),1.6
+markdown,docx,large_markdown.md,pandoc_rb,1.6
+markdown,docx,test.md,pandoc-ruby (read file),14.1
+markdown,docx,test.md,pandoc_rb,29.0
+markdown,docx,test2.md,pandoc-ruby (read file),11.2
+markdown,docx,test2.md,pandoc_rb,28.7
+markdown,html,benchmark.txt,pandoc-ruby (read file),14.6
+markdown,html,benchmark.txt,pandoc_rb,49.0
+markdown,html,format.markdown,pandoc-ruby (read file),31.7
+markdown,html,format.markdown,pandoc_rb,1946.1
+markdown,html,large_markdown.md,pandoc-ruby (read file),8.7
+markdown,html,large_markdown.md,pandoc_rb,25.4
+markdown,html,test.md,pandoc-ruby (read file),31.7
+markdown,html,test.md,pandoc_rb,2193.9
+markdown,html,test2.md,pandoc-ruby (read file),9.6
+markdown,html,test2.md,pandoc_rb,11525.8
+markdown,latex,benchmark.txt,pandoc-ruby (read file),13.8
+markdown,latex,benchmark.txt,pandoc_rb,43.7
+markdown,latex,format.markdown,pandoc-ruby (read file),31.9
+markdown,latex,format.markdown,pandoc_rb,1715.1
+markdown,latex,large_markdown.md,pandoc-ruby (read file),7.9
+markdown,latex,large_markdown.md,pandoc_rb,23.4
+markdown,latex,test.md,pandoc-ruby (read file),34.0
+markdown,latex,test.md,pandoc_rb,1786.0
+markdown,latex,test2.md,pandoc-ruby (read file),10.9
+markdown,latex,test2.md,pandoc_rb,9547.0
+markdown,markdown,benchmark.txt,pandoc-ruby (read file),13.7
+markdown,markdown,benchmark.txt,pandoc_rb,40.5
+markdown,markdown,format.markdown,pandoc-ruby (read file),33.3
+markdown,markdown,format.markdown,pandoc_rb,1497.8
+markdown,markdown,large_markdown.md,pandoc-ruby (read file),9.2
+markdown,markdown,large_markdown.md,pandoc_rb,21.7
+markdown,markdown,test.md,pandoc-ruby (read file),32.1
+markdown,markdown,test.md,pandoc_rb,1529.4
+markdown,markdown,test2.md,pandoc-ruby (read file),7.0
+markdown,markdown,test2.md,pandoc_rb,9775.5
+org,Fixnum,format.org,sum bytes,129899.0
+org,docx,format.org,pandoc-ruby (read file),13.9
+org,docx,format.org,pandoc_rb,27.3
+org,html,format.org,pandoc-ruby (read file),22.0
+org,html,format.org,pandoc_rb,1048.3
+org,latex,format.org,pandoc-ruby (read file),22.3
+org,latex,format.org,pandoc_rb,1042.8
+org,markdown,format.org,pandoc-ruby (read file),0.2
+org,markdown,format.org,pandoc_rb,990.0
+rst,Fixnum,format.rst,sum bytes,107008.0
+rst,docx,format.rst,pandoc-ruby (read file),13.0
+rst,docx,format.rst,pandoc_rb,26.2
+rst,html,format.rst,pandoc-ruby (read file),20.8
+rst,html,format.rst,pandoc_rb,1049.7
+rst,latex,format.rst,pandoc-ruby (read file),23.5
+rst,latex,format.rst,pandoc_rb,1004.3
+rst,markdown,format.rst,pandoc-ruby (read file),22.9
+rst,markdown,format.rst,pandoc_rb,984.0
+textile,Fixnum,format.textile,sum bytes,109341.6
+textile,docx,format.textile,pandoc-ruby (read file),13.6
+textile,docx,format.textile,pandoc_rb,27.2
+textile,html,format.textile,pandoc-ruby (read file),17.3
+textile,html,format.textile,pandoc_rb,3229.7
+textile,latex,format.textile,pandoc-ruby (read file),34.2
+textile,latex,format.textile,pandoc_rb,2498.7
+textile,markdown,format.textile,pandoc-ruby (read file),31.0
+textile,markdown,format.textile,pandoc_rb,2009.4
