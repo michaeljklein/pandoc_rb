@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pandoc_rb (0.2.2)
+    pandoc_rb (0.2.3)
 
 GEM
   remote: https://rubygems.org/
@@ -34,7 +34,7 @@ PLATFORMS
 
 DEPENDENCIES
   benchmark-ips
-  bundler (~> 1.15.1)
+  bundler (~> 1.16.1)
   kalibera
   minitest (~> 5.0)
   pandoc-ruby
@@ -45,4 +45,4 @@ DEPENDENCIES
   rake-compiler
 
 BUNDLED WITH
-   1.15.1
+   1.16.1
