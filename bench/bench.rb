@@ -54,10 +54,12 @@ Benchmark.ips do |bench|
 
           # PandocRuby is incapable of accepting a raw docx file as input
           unless file_path.match(/\.docx/)
-            # Convert by telling pandoc through PandocRuby to read stdin
-            bench.report "from: #{reader}, to: #{writer}, file: #{File.basename(file_path)}, pandoc-ruby" do
-              PandocRuby.convert file     , from: reader, to: writer
-            end
+            puts "Warning: .docx conversion currently disabled", file_path
+
+            # # Convert by telling pandoc through PandocRuby to read stdin
+            # bench.report "from: #{reader}, to: #{writer}, file: #{File.basename(file_path)}, pandoc-ruby" do
+            #   PandocRuby.convert file     , from: reader, to: writer
+            # end
           end
         end
       end

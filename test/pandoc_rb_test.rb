@@ -97,6 +97,7 @@ class PandocRbTest < Minitest::Test
   end
 
   def test_run_haskell_tests
+    puts
     assert Dir.chdir("#{__dir__}/../ext/pandoc_rb"){ system('stack test') }
   end
 
